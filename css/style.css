@@ -28,6 +28,10 @@
   opacity: 0;
 }
 
+.hidden {
+  overflow: hidden;
+}
+
 .container::before {
   content: "";
   display: block;
