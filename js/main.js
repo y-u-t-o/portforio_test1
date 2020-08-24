@@ -13,6 +13,7 @@ btn.addEventListener('click', function () {
   $('.contact').toggleClass('close');
   $('.footer').toggleClass('close');
   nav.classList.toggle('open-menu');
+  $('body').toggleClass('hidden');
   border1.classList.toggle('open1');
   border2.classList.toggle('open2');
   border3.classList.toggle('open3');
